@@ -1,7 +1,7 @@
 ---
 opentsdb:
   hostname: otsdb-host
-  image: petergrace/opentsdb-docker:latest
+  image: lguoyu/opentsdb:latest
   environment:
     - WAITSECS=30    
   ports:
